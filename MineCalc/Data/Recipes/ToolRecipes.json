@@ -1,5 +1,128 @@
 [
-
+  {
+    "Result": {
+      "Type": { "Name": "Bow" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "String" },
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Bucket" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Clock" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Gold Ingot" },
+        "Count": 4
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compass" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 4
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Diamond Axe" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Diamond" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Diamond Pickaxe" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Diamond" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Diamond Shovel" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Diamond" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Diamond Sword" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Diamond" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
   {
     "Result": {
       "Type": { "Name": "Iron Axe" },
@@ -7,7 +130,7 @@
     },
     "Requirements": [
       {
-        "Type": { "Name": "Iron Ore" },
+        "Type": { "Name": "Iron Ingot" },
         "Count": 3
       },
       {
@@ -23,7 +146,7 @@
     },
     "Requirements": [
       {
-        "Type": { "Name": "Iron Ore" },
+        "Type": { "Name": "Iron Ingot" },
         "Count": 3
       },
       {
@@ -39,7 +162,7 @@
     },
     "Requirements": [
       {
-        "Type": { "Name": "Iron Ore" },
+        "Type": { "Name": "Iron Ingot" },
         "Count": 1
       },
       {
@@ -55,7 +178,7 @@
     },
     "Requirements": [
       {
-        "Type": { "Name": "Iron Ore" },
+        "Type": { "Name": "Iron Ingot" },
         "Count": 2
       },
       {

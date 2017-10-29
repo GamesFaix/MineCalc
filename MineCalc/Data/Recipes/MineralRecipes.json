@@ -1,0 +1,70 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Glowstone" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Glowstone Dust" },
+        "Count": 4
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Gold Block" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Gold Ingot" },
+        "Count": 9
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Gold Ignot" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Gold Ore" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Iron Block" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 9
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Iron Ignot" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ore" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  }
+]

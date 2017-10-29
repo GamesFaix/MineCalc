@@ -1,17 +1,17 @@
 [
   {
     "Result": {
-      "Type": { "Name": "Iron Ignot" },
+      "Type": { "Name": "Stone" },
       "Count": 1
     },
     "Requirements": [
       {
-        "Type": { "Name": "Iron Ore" },
-        "Count": 1
-      },
-      {
         "Type": { "Name": "Coal" },
         "Count": 0.125
+      },
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 1
       }
     ]
   }

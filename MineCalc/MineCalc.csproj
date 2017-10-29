@@ -69,7 +69,19 @@
     <None Include="Data\BlockTypes\FarmBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\BlockTypes\MaterialBlocks.json">
+    <None Include="Data\BlockTypes\FurnitureBlocks.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\BlockTypes\TechBlocks.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\BlockTypes\WoodBlocks.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\BlockTypes\MineralBlocks.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\BlockTypes\StoneBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Data\BlockTypes\ToolBlocks.json">
@@ -84,7 +96,13 @@
     <None Include="Data\Recipes\FurnitureRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Recipes\SmeltingRecipes.json">
+    <None Include="Data\Recipes\MineralRecipes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Recipes\StoneRecipes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Recipes\TechRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Data\Recipes\ToolRecipes.json">

@@ -17,6 +17,90 @@
   },
   {
     "Result": {
+      "Type": { "Name": "Door" },
+      "Count": 3
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 6
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Glass" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      },
+      {
+        "Type": { "Name": "Sand" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Glass Pane" },
+      "Count": 16
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Glass" },
+        "Count": 6
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Item Frame" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Leather" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 8
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Ladder" },
+      "Count": 3
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 7
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Map" },
+      "Count": 3
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Compass" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Paper" },
+        "Count": 8
+      }
+    ]
+  },
+  {
+    "Result": {
       "Type": { "Name": "Paper" },
       "Count": 3
     },
@@ -24,6 +108,38 @@
       {
         "Type": { "Name": "Sugar Cane" },
         "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Sign" },
+      "Count": 3
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Torch" },
+      "Count": 4
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
       }
     ]
   }

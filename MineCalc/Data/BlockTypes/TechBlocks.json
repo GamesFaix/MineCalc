@@ -1,0 +1,19 @@
+[
+  { "Name": "Button" },
+  { "Name": "Daylight Sensor" },
+  { "Name": "Detector Rail" },
+  { "Name": "Dispenser" },
+  { "Name": "Dropper" },
+  { "Name": "Hopper" },
+  { "Name": "Note Block" },
+  { "Name": "Observer" },
+  { "Name": "Piston" },
+  { "Name": "Powered Rail" },
+  { "Name": "Redstone Lamp" },
+  { "Name": "Redstone Repeater" },
+  { "Name": "Redstone Torch" },
+  { "Name": "Sicky Piston" },
+  { "Name": "Stone Pressure Plate" },
+  { "Name": "Tripwire Hook" },
+  { "Name": "Wooden Pressure Plate" }
+]

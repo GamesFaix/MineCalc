@@ -1,0 +1,314 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Button" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Daylight Sensor" },
+      "Count": 6
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Glass" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Nether Quartz" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Detector Rail" },
+      "Count": 6
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stone Pressure Plate" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Dispenser" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Bow" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 7
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Dropper" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 7
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Dropper" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 7
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Hopper" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Chest" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 5
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Note Block" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 8
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Observer" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Nether Quartz" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Piston" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 4
+      },
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Powered Rail" },
+      "Count": 6
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Gold Ingot" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Redstone Lamp" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Glowstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 4
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Redstone Repeater" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Redstone Torch" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Stone" },
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Redstone Torch" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Sticky Piston" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Slimeball" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Piston" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Stone Pressure Plate" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Stone" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Tripwire Hook" },
+      "Count": 2
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Wooden Pressure Plate" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 2
+      }
+    ]
+  }
+]

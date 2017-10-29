@@ -1,6 +1,54 @@
 [
   {
     "Result": {
+      "Type": { "Name": "Anvil" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Block" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 4
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Bed" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Wool" },
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Brewing Stand" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Blaze Rod" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
       "Type": { "Name": "Chest" },
       "Count": 1
     },
@@ -52,6 +100,38 @@
       {
         "Type": { "Name": "Obsidian" },
         "Count": 4
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Jukebox" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Dimaond" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 8
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Trapped Chest" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Chest" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Tripwire Hook" },
+        "Count": 1
       }
     ]
   }

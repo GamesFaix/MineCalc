@@ -1,4 +1,12 @@
 [
+  { "Name": "Bow" },
+  { "Name": "Bucket" },
+  { "Name": "Clock" },
+  { "Name": "Compass" },
+  { "Name": "Diamond Axe" },
+  { "Name": "Diamond Pickaxe" },
+  { "Name": "Diamond Shovel" },
+  { "Name": "Diamond Sword" },
   { "Name": "Iron Axe" },
   { "Name": "Iron Pickaxe" },
   { "Name": "Iron Shovel" },

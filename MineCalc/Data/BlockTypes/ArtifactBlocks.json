@@ -1,4 +1,12 @@
 [
   { "Name": "Book" },
-  { "Name": "Paper" }
+  { "Name": "Door" },
+  { "Name": "Glass" },
+  { "Name": "Glass Pane" },
+  { "Name": "Item Frame" },
+  { "Name": "Ladder" },
+  { "Name": "Map" },
+  { "Name": "Paper" },
+  { "Name": "Sign" },
+  { "Name": "Torch" }
 ]
