@@ -21,28 +21,25 @@ namespace MineCalc.Model
             return Merge(requirements)
                 .ToList();
         }
-
-        private IEnumerable<BlockStack> Merge (IEnumerable<BlockStack> stacks)
-        {
-            return stacks
-                .GroupBy(r => r.Type)
-                .Select(g => new BlockStack(g.Key, g.Sum(bs => bs.Count)));
-        }
-
-        private Recipe Merge(BlockStack result, IEnumerable<IRecipe> requirements)
-        {
-            return new Recipe(result, 
-                Merge(requirements.SelectMany(r => r.Requirements)));
-        }
-
+        
         public IRecipe Expand(IRecipe recipe)
         {
+            IRecipe ExpandOnce(IRecipe rec)
+            {
+                if (!rec.Requirements.Any()) return rec;
+
+                var requirements = rec.Requirements
+                    .SelectMany(r => GetRecipe(r).Requirements);
+
+                return new Recipe(rec.Result, Merge(requirements));
+            }
+
             const int maxDepth = 20;
 
             IRecipe last = recipe;
 
-            for (var i = 1; i<= maxDepth; i++)
-            {                
+            for (var i = 1; i <= maxDepth; i++)
+            {
                 var temp = ExpandOnce(last);
                 if (temp == last) return temp;
                 last = temp;
@@ -50,40 +47,27 @@ namespace MineCalc.Model
 
             return last;
         }
-        
-        private IRecipe ExpandOnce(IRecipe recipe)
+
+        private IEnumerable<BlockStack> Merge(IEnumerable<BlockStack> stacks)
         {
-            if (!recipe.Requirements.Any())
-            {
-                return recipe;
-            }
-            else
-            {
-                var list = recipe.Requirements
-                    .SelectMany(r => GetRecipe(r).Requirements);
-
-                return Merge(recipe.Result, list);
-            }
+            return stacks
+                .GroupBy(r => r.Type)
+                .Select(g => new BlockStack(g.Key, g.Sum(bs => bs.Count)));
         }
-
-        private BlockStack Scale(BlockStack @this, decimal scale) =>
-              new BlockStack(@this.Type, scale * @this.Count);
 
         private IRecipe GetRecipe(BlockStack stack)
         {
             var recipe = _book.Recipes
                 .FirstOrDefault(r => r.Result.Type == stack.Type);
 
-            if (recipe == null)
-            {
-                return stack;
-            }
-            else
-            {
-                var scale = stack.Count / recipe.Result.Count;
-                var requirements = recipe.Requirements.Select(stk => Scale(stk, scale));
-                return new Recipe(stack.Result, requirements);
-            }
+            if (recipe == null) return stack;
+
+            var scale = stack.Count / recipe.Result.Count;
+            var requirements = recipe.Requirements.Select(stk => Scale(stk, scale));
+            return new Recipe(stack.Result, requirements);
         }
+
+        private BlockStack Scale(BlockStack @this, decimal scale) =>
+              new BlockStack(@this.Type, scale * @this.Count);
     }
 }
