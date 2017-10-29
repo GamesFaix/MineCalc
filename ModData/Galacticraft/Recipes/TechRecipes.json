@@ -1,0 +1,42 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Aluminum Wire" },
+      "Count": 6
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Aluminum Ingot" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Wool" },
+        "Count": 6
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Basic Wafer" },
+      "Count": 3
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Diamond" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Raw Silicon" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Redstone Torch" },
+        "Count": 1
+      }
+    ]
+  }
+]

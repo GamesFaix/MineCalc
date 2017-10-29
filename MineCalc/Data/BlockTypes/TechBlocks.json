@@ -5,6 +5,7 @@
   { "Name": "Dispenser" },
   { "Name": "Dropper" },
   { "Name": "Hopper" },
+  { "Name": "Lever" },
   { "Name": "Note Block" },
   { "Name": "Observer" },
   { "Name": "Piston" },
@@ -14,6 +15,7 @@
   { "Name": "Redstone Repeater" },
   { "Name": "Redstone Torch" },
   { "Name": "Sicky Piston" },
+  { "Name": "Stone Button" },
   { "Name": "Stone Pressure Plate" },
   { "Name": "Tripwire Hook" },
   { "Name": "Wooden Pressure Plate" }

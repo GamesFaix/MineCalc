@@ -1,0 +1,150 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Aluminum Ingot" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Aluminum Ore" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compressed Aluminum" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Aluminum Ingot" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compressed Bronze" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Compressed Copper" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Compressed Tin" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compressed Copper" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Copper Ingot" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compressed Iron" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compressed Steel" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Copper Iron" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 2.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compressed Tin" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Tin Ore" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Copper Ingot" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Copper Ore" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Tin Ingot" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Tin Ore" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  }
+]

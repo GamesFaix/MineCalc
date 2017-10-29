@@ -121,6 +121,22 @@
   },
   {
     "Result": {
+      "Type": { "Name": "Lever" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
       "Type": { "Name": "Note Block" },
       "Count": 1
     },
@@ -279,6 +295,18 @@
       },
       {
         "Type": { "Name": "Piston" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Stone Button" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Stone" },
         "Count": 1
       }
     ]

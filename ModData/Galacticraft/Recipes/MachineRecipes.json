@@ -1,0 +1,58 @@
+[
+    {
+    "Result": {
+      "Type": { "Name": "Circuit Fabricator" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Aluminum Ingot" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Aluminum Wire" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Furnace" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Lever" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Redstone Torch" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stone Button" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Compressor" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Aluminum Ingot" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Anvil" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Basic Wafer" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Copper Ingot" },
+        "Count": 1
+      }
+    ]
+  }
+]
