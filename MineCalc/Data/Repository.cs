@@ -13,18 +13,18 @@ namespace MineCalc.Data
     {
         public RecipeBook LoadRecipeBook()
         {
-            var blockTypes = Load<BlockType>("BlockTypes").OrderBy(b => b.Name);
-            var recipes = Load<Recipe>("Recipes").OrderBy(r => r.Result.Type.Name);
+            var blockTypes = Load<BlockType>("*Blocks.json").OrderBy(b => b.Name);
+            var recipes = Load<Recipe>("*Recipes.json").OrderBy(r => r.Result.Type.Name);
             var book = new RecipeBook(blockTypes, recipes);
             ValidateRecipeBook(book);
             return book;
         }
 
-        private IEnumerable<T> Load<T>(string folder)
+        private IEnumerable<T> Load<T>(string filePattern)
         {
             var currentDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var path = Path.Combine(currentDir, "Data", folder);
-            var files = Directory.GetFiles(path);
+            var path = Path.Combine(currentDir, "Data");
+            var files = Directory.GetFiles(path, filePattern, SearchOption.AllDirectories);
 
             var result = new List<T>();
             foreach (var f in files)
