@@ -1,0 +1,14 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Standard Rail" },
+      "Count": 8
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 6
+      }
+    ]
+  }
+]

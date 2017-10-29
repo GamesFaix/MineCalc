@@ -1,0 +1,58 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Detector Rail" },
+      "Count": 6
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stone Pressure Plate" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Powered Rail" },
+      "Count": 6
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Gold Ingot" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Redstone" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Rail" },
+      "Count": 16
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  }
+]

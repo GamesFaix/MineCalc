@@ -1,7 +1,6 @@
 [
   { "Name": "Button" },
   { "Name": "Daylight Sensor" },
-  { "Name": "Detector Rail" },
   { "Name": "Dispenser" },
   { "Name": "Dropper" },
   { "Name": "Hopper" },
@@ -9,8 +8,6 @@
   { "Name": "Note Block" },
   { "Name": "Observer" },
   { "Name": "Piston" },
-  { "Name": "Powered Rail" },
-  { "Name": "Rail" },
   { "Name": "Redstone Lamp" },
   { "Name": "Redstone Repeater" },
   { "Name": "Redstone Torch" },

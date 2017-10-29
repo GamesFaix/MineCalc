@@ -52,7 +52,8 @@ namespace MineCalc.Model
         {
             return stacks
                 .GroupBy(r => r.Type)
-                .Select(g => new BlockStack(g.Key, g.Sum(bs => bs.Count)));
+                .Select(g => new BlockStack(g.Key, g.Sum(bs => bs.Count)))
+                .OrderBy(stack=>stack.Type.Name);
         }
 
         private IRecipe GetRecipe(BlockStack stack)

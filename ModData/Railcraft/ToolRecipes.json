@@ -1,0 +1,18 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Crowbar" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Rose Red" },
+        "Count": 4
+      }
+    ]
+  }
+]

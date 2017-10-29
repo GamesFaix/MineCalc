@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCalc", "MineCalc\MineCa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModData", "ModData", "{3EBBD9BF-9207-490A-AC1C-6686B9170E71}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GalacticCraft", "GalacticCraft", "{55762453-A02B-44E3-B334-EF3DF146457B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Galacticraft", "Galacticraft", "{55762453-A02B-44E3-B334-EF3DF146457B}"
 	ProjectSection(SolutionItems) = preProject
 		ModData\Galacticraft\MachineBlocks.json = ModData\Galacticraft\MachineBlocks.json
 		ModData\Galacticraft\MachineRecipes.json = ModData\Galacticraft\MachineRecipes.json
@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GalacticCraft", "GalacticCr
 		ModData\Galacticraft\TechBlocks.json = ModData\Galacticraft\TechBlocks.json
 		ModData\Galacticraft\TechRecipes.json = ModData\Galacticraft\TechRecipes.json
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Railcraft", "Railcraft", "{C92ECF17-CCEF-4F7B-88DC-BA4FBA10D429}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,5 +35,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{55762453-A02B-44E3-B334-EF3DF146457B} = {3EBBD9BF-9207-490A-AC1C-6686B9170E71}
+		{C92ECF17-CCEF-4F7B-88DC-BA4FBA10D429} = {3EBBD9BF-9207-490A-AC1C-6686B9170E71}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,22 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Rolling Machine" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Crafting Table" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Piston" },
+        "Count": 4
+      },
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 4
+      }
+    ]
+  }
+]

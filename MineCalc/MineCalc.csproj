@@ -91,6 +91,8 @@
     <None Include="Data\Vanilla\FurnitureBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Data\Vanilla\RailBlocks.json" />
+    <None Include="Data\Vanilla\RailRecipes.json" />
     <None Include="Data\Vanilla\TechBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -109,7 +111,7 @@
     <None Include="Data\Vanilla\ArtifactRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BasicRecipes.json">
+    <None Include="Data\Vanilla\WoodRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Data\Vanilla\DyeRecipes.json">
