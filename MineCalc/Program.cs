@@ -12,7 +12,7 @@ namespace MineCalc
         {
             var repo = new Repository();
             var book = repo.LoadRecipeBook();
-            var calc = new Calculator();
+            var calc = new Calculator(book);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

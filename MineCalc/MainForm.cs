@@ -1,11 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 using MineCalc.Model;
-using System.ComponentModel;
-using System.Linq;
 using MineCalc.ViewModel;
 using MoreLinq;
-using System.Collections.Generic;
 
 namespace MineCalc
 {
@@ -22,13 +21,7 @@ namespace MineCalc
         private void MainForm_Load(object sender, EventArgs e)
         {
             grid_Recipes.DataSource = RecipeBook.Recipes
-                .Select(r => new RecipeViewModel
-                {
-                    Result = r.Result.ToString(),
-                    Requirements = r.Requirements
-                        .Select(req => req.ToString())
-                        .ToDelimitedString(", ")
-                })
+                .Select(Extensions.ToViewModel)
                 .ToList();
 
             grid_Blocks.DataSource = RecipeBook.BlockTypes;
@@ -76,33 +69,16 @@ namespace MineCalc
                 return true;
             }
         }
-
-        private List<BlockStackViewModel> CalculateRequirements(List<BlockStack> query)
-        {
-            var requirements = query
-                .Select(bs => Calculator.Expand(bs, RecipeBook))
-                .SelectMany(rec => rec.Requirements);
-
-            return Calculator.Merge(null, requirements)
-                .Requirements
-                .Select(req => new BlockStackViewModel
-                {
-                    BlockType = req.Type.Name,
-                    Count = req.Count
-                })
-                .ToList();
-        }
-
+        
         private void btn_Calculate_Click(object sender, EventArgs e)
         {
             var query = GetQuery().ToList();
-            if (!ValidateQuery(query))
-            {
-                return;
-            }
+            if (!ValidateQuery(query)) return;
 
-            var requirements = CalculateRequirements(query);
-            grid_Calculated.DataSource = requirements;
+            grid_Calculated.DataSource = 
+                Calculator.GetRequirements(query)
+                .Select(Extensions.ToViewModel)
+                .ToList();
         }
     }
 }
