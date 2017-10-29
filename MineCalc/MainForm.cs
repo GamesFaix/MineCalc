@@ -2,6 +2,9 @@
 using System.Windows.Forms;
 using MineCalc.Model;
 using System.ComponentModel;
+using System.Linq;
+using MineCalc.ViewModel;
+using MoreLinq;
 
 namespace MineCalc
 {
@@ -17,8 +20,18 @@ namespace MineCalc
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            grid_Recipes.DataSource = RecipeBook.Recipes;
+            grid_Recipes.DataSource = RecipeBook.Recipes
+                .Select(r => new RecipeViewModel
+                {
+                    Result = r.Result.ToString(),
+                    Requirements = r.Requirements
+                        .Select(req => req.ToString())
+                        .ToDelimitedString(", ")
+                })
+                .ToList();
+
             grid_Blocks.DataSource = RecipeBook.BlockTypes;
+
         }
     }
 }

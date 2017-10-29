@@ -69,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\Recipe.cs" />
     <Compile Include="Model\RecipeBook.cs" />
+    <Compile Include="ViewModel\RecipeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\BlockTypes\ArtifactBlocks.json">
