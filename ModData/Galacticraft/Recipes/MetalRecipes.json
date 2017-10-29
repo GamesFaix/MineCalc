@@ -1,4 +1,20 @@
-[
+[ 
+ {
+    "Result": {
+      "Type": { "Name": "Air Vent" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Compressed Tin" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Compressed Steel" },
+        "Count": 1
+      }
+    ]
+  },
   {
     "Result": {
       "Type": { "Name": "Aluminum Ingot" },
@@ -115,6 +131,19 @@
       }
     ]
   },
+  ,
+  {
+    "Result": {
+      "Type": { "Name": "Copper Canister" },
+      "Count": 2
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Copper Ingot" },
+        "Count": 7
+      }
+    ]
+  },
   {
     "Result": {
       "Type": { "Name": "Copper Ingot" },
@@ -128,6 +157,42 @@
       {
         "Type": { "Name": "Coal" },
         "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Heavy Duty Plating" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Compressed Aluminum" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Compressed Bronze" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Compressed Steel" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Coal" },
+        "Count": 0.125
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Tin Canister" },
+      "Count": 2
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Tin Ingot" },
+        "Count": 7
       }
     ]
   },

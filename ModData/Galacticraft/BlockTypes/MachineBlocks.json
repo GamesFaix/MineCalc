@@ -1,4 +1,7 @@
 [
   { "Name": "Circuit Fabriactor" },
-  { "Name": "Compressor" }
+  { "Name": "Coal Generator" },
+  { "Name": "Compressor" },
+  { "Name": "Fuel Loader" },
+  { "Name": "NASA Workbench" }
 ]

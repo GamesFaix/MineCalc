@@ -125,6 +125,22 @@
   },
   {
     "Result": {
+      "Type": { "Name": "Flint and Steel" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Flint" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
       "Type": { "Name": "Iron Axe" },
       "Count": 1
     },
@@ -136,6 +152,18 @@
       {
         "Type": { "Name": "Stick" },
         "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Iron Helmet" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 5
       }
     ]
   },

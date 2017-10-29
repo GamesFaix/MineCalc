@@ -1,10 +1,20 @@
 [
+  { "Name": "Air Vent" },
   { "Name": "Aluminum Ingot" },
   { "Name": "Aluminum Ore" },
+  { "Name": "Compressed Aluminum" },
+  { "Name": "Compressed Broze" },
+  { "Name": "Compressed Copper" },
+  { "Name": "Compressed Iron" },
+  { "Name": "Compressed Steel" },
+  { "Name": "Compressed Tin" },
+  { "Name": "Copper Canister" },
   { "Name": "Copper Ingot" },
   { "Name": "Copper Ore" },
+  { "Name": "Heavy Duty Plating" },
   { "Name": "Raw Silicon" },
   { "Name": "Silicon Ore" },
+  { "Name": "Tin Canister" },
   { "Name": "Tin Ingot" },
-  { "Name": "Tin Ore" },
+  { "Name": "Tin Ore" }
 ]

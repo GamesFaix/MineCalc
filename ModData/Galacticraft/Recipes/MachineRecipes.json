@@ -33,6 +33,30 @@
   },
   {
     "Result": {
+      "Type": { "Name": "Coal Generator" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Aluminum Wire" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Copper Ingot" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Furnace" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 4
+      }
+    ]
+  }, 
+  {
+    "Result": {
       "Type": { "Name": "Compressor" },
       "Count": 1
     },
@@ -51,6 +75,58 @@
       },
       {
         "Type": { "Name": "Copper Ingot" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Fuel Loader" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Basic Wafer" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Compressed Aluminum" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Compressed Steel" },
+        "Count": 5
+      },
+      {
+        "Type": { "Name": "Tin Canister" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "NASA Workbench" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Advanced Wafer" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Compressed Steel" },
+        "Count": 4
+      },
+      {
+        "Type": { "Name": "Crafting Table" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Lever" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Redstone Torch" },
         "Count": 1
       }
     ]

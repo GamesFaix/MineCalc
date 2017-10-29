@@ -1,4 +1,16 @@
 [
+  { "Name": "Advanced Wafer" },
   { "Name": "Aluminum Wire" },
-  { "Name": "Basic Wafer" }
+  { "Name": "Basic Wafer" },
+  { "Name": "Heavy Oxygen Tank" },
+  { "Name": "Light Oxygen Tank" },
+  { "Name": "Medium Oxygen Tank" },
+  { "Name": "Nose Cone" },
+  { "Name": "Oxygen Concentrator" },
+  { "Name": "Oxygen Gear" },
+  { "Name": "Oxygen Mask" },
+  { "Name": "Oxygen Pipe" },
+  { "Name": "Rocket Engine" },
+  { "Name": "Rocket Fin" },  
+  { "Name": "Tier 1 Rocket" }
 ]

@@ -1,0 +1,94 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Bone Meal" },
+      "Count": 3
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Bone" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Lime Dye" },
+      "Count": 2
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Bone Meal" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Cactus Green" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Lime Wool" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Lime Dye" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Wool" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Orange Dye" },
+      "Count": 2
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Dandelion Yellow" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Rose Red" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Orange Wool" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Orange Dye" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Wool" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Red Wool" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Rose Red" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Wool" },
+        "Count": 1
+      }
+    ]
+  }
+]
