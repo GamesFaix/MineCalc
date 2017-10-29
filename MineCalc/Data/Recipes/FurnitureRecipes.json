@@ -1,0 +1,58 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Chest" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 8
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Crafting Table" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 4
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Furnace" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Cobblestone" },
+        "Count": 8
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Enchanting Table" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Book" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Diamond" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Obsidian" },
+        "Count": 4
+      }
+    ]
+  }
+]

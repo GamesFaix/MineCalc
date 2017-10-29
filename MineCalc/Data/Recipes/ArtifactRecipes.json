@@ -1,0 +1,30 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Book" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Leather" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Paper" },
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Paper" },
+      "Count": 3
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Sugar Cane" },
+        "Count": 3
+      }
+    ]
+  }
+]

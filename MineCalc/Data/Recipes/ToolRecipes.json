@@ -1,0 +1,67 @@
+[
+
+  {
+    "Result": {
+      "Type": { "Name": "Iron Axe" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ore" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Iron Pickaxe" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ore" },
+        "Count": 3
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Iron Shovel" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ore" },
+        "Count": 1
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Iron Sword" },
+      "Count": 1
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ore" },
+        "Count": 2
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Result": {
+      "Type": { "Name": "Stick" },
+      "Count": 4
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Plank" },
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Result": {
+      "Type": { "Name": "Plank" },
+      "Count": 4
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Wood" },
+        "Count": 1
+      }
+    ]
+  }
+]
