@@ -13,8 +13,8 @@ namespace MineCalc.Data
     {
         public RecipeBook LoadRecipeBook()
         {
-            var blockTypes = Load<BlockType>("BlockTypes");
-            var recipes = Load<Recipe>("Recipes");
+            var blockTypes = Load<BlockType>("BlockTypes").OrderBy(b => b.Name);
+            var recipes = Load<Recipe>("Recipes").OrderBy(r => r.Result.Type.Name);
             var book = new RecipeBook(blockTypes, recipes);
             ValidateRecipeBook(book);
             return book;
@@ -60,6 +60,20 @@ namespace MineCalc.Data
 
             if (book.Recipes.Any(r => r.Requirements.Any(req => req.Count == 0)))
                 throw new Exception("Recipe cannot require 0 of a block.");
+
+            var duplicates = book.BlockTypes
+                .GroupBy(b => b.Name)
+                .Where(g => g.Count() > 1)
+                .ToList();
+
+            if (duplicates.Any())
+            {
+                var duplicatesList = duplicates
+                    .Select(g => $"'{g.Key}'")
+                    .ToDelimitedString(", ");
+
+                throw new Exception($"Duplicate blocks {duplicatesList}");
+            }
         }
     }
 }

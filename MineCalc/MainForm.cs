@@ -1,25 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using MineCalc.Model;
+using System.ComponentModel;
 
 namespace MineCalc
 {
     public partial class MainForm : Form
     {
+        internal Calculator Calculator { get; set; }
+        internal RecipeBook RecipeBook { get; set; }
+
         public MainForm()
         {
             InitializeComponent();
         }
 
-        private void group_Recipes_Enter(object sender, EventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
-
+            grid_Recipes.DataSource = RecipeBook.Recipes;
+            grid_Blocks.DataSource = RecipeBook.BlockTypes;
         }
     }
 }
