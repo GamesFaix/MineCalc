@@ -1,4 +1,6 @@
-﻿using MineCalc.Data;
+﻿using System;
+using System.Windows.Forms;
+using MineCalc.Data;
 using MineCalc.Model;
 using Newtonsoft.Json;
 using static System.Console;
@@ -7,13 +9,20 @@ namespace MineCalc
 {
     static class Program
     {
+        [STAThread]
         static void Main()
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
+        }
+        static void Test()
+        { 
             var repo = new Repository();
             var book = repo.LoadRecipeBook();
             var calc = new Calculator();
 
-            var desiredStack = new BlockStack(new BlockType("Enchanting Table"), 1);
+            var desiredStack = new BlockStack(new BlockType("Rail"), 1);
             WriteLine("Desired item");
             WriteLine(desiredStack);
             WriteLine();

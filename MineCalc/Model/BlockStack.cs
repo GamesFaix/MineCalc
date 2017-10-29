@@ -25,7 +25,7 @@ namespace MineCalc.Model
         public ImmutableList<BlockStack> Requirements =>
             ImmutableList.Create(this);
 
-        public override string ToString() => $"{Type} x{Count}";
+        public override string ToString() => $"{Type} x{Count:n2}";
 
         #region Equality
         public bool Equals(BlockStack other) =>

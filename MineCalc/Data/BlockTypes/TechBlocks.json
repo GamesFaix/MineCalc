@@ -9,6 +9,7 @@
   { "Name": "Observer" },
   { "Name": "Piston" },
   { "Name": "Powered Rail" },
+  { "Name": "Rail" },
   { "Name": "Redstone Lamp" },
   { "Name": "Redstone Repeater" },
   { "Name": "Redstone Torch" },

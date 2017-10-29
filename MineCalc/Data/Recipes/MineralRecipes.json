@@ -25,7 +25,7 @@
   },
   {
     "Result": {
-      "Type": { "Name": "Gold Ignot" },
+      "Type": { "Name": "Gold Ingot" },
       "Count": 1
     },
     "Requirements": [
@@ -53,7 +53,7 @@
   },
   {
     "Result": {
-      "Type": { "Name": "Iron Ignot" },
+      "Type": { "Name": "Iron Ingot" },
       "Count": 1
     },
     "Requirements": [

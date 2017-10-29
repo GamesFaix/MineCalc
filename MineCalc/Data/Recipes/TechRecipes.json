@@ -201,6 +201,22 @@
   },
   {
     "Result": {
+      "Type": { "Name": "Rail" },
+      "Count": 16
+    },
+    "Requirements": [
+      {
+        "Type": { "Name": "Iron Ingot" },
+        "Count": 6
+      },
+      {
+        "Type": { "Name": "Stick" },
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Result": {
       "Type": { "Name": "Redstone Lamp" },
       "Count": 1
     },
