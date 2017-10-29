@@ -4,7 +4,7 @@ using MoreLinq;
 
 namespace MineCalc.ViewModel
 {
-    static class Extensions
+    static class ViewModelExtensions
     {
         public static BlockStackViewModel ToViewModel(this BlockStack stack)
         {

@@ -11,6 +11,7 @@ namespace MineCalc
     public partial class MainForm : Form
     {
         internal Calculator Calculator { get; set; }
+
         internal RecipeBook RecipeBook { get; set; }
 
         public MainForm()
@@ -21,10 +22,20 @@ namespace MineCalc
         private void MainForm_Load(object sender, EventArgs e)
         {
             grid_Recipes.DataSource = RecipeBook.Recipes
-                .Select(Extensions.ToViewModel)
+                .Select(ViewModelExtensions.ToViewModel)
                 .ToList();
 
             grid_Blocks.DataSource = RecipeBook.BlockTypes;
+        }
+        private void btn_Calculate_Click(object sender, EventArgs e)
+        {
+            var query = GetQuery().ToList();
+            if (!ValidateQuery(query)) return;
+
+            grid_Calculated.DataSource =
+                Calculator.GetRequirements(query)
+                .Select(ViewModelExtensions.ToViewModel)
+                .ToList();
         }
 
         private IEnumerable<BlockStack> GetQuery()
@@ -68,17 +79,6 @@ namespace MineCalc
             {
                 return true;
             }
-        }
-        
-        private void btn_Calculate_Click(object sender, EventArgs e)
-        {
-            var query = GetQuery().ToList();
-            if (!ValidateQuery(query)) return;
-
-            grid_Calculated.DataSource = 
-                Calculator.GetRequirements(query)
-                .Select(Extensions.ToViewModel)
-                .ToList();
-        }
+        }        
     }
 }

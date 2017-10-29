@@ -75,7 +75,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\BlockStackViewModel.cs" />
-    <Compile Include="ViewModel\Extensions.cs" />
+    <Compile Include="ViewModel\ViewModelExtensions.cs" />
     <Compile Include="ViewModel\RecipeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
