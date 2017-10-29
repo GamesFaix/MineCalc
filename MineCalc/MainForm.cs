@@ -25,7 +25,7 @@ namespace MineCalc
                 .Select(ViewModelExtensions.ToViewModel)
                 .ToList();
 
-            grid_Blocks.DataSource = RecipeBook.BlockTypes;
+            grid_Items.DataSource = RecipeBook.Items;
         }
         private void btn_Calculate_Click(object sender, EventArgs e)
         {
@@ -33,41 +33,41 @@ namespace MineCalc
             if (!ValidateQuery(query)) return;
 
             grid_Calculated.DataSource =
-                Calculator.GetRequirements(query)
+                Calculator.GetIngredients(query)
                 .Select(ViewModelExtensions.ToViewModel)
                 .ToList();
         }
 
-        private IEnumerable<BlockStack> GetQuery()
+        private IEnumerable<ItemStack> GetQuery()
         {
-            foreach (DataGridViewRow r in grid_Query.Rows)
+            foreach (DataGridViewRow row in grid_Query.Rows)
             {
-                var name = r.Cells[0].Value?.ToString();
+                var name = row.Cells[0].Value?.ToString();
 
                 if (name != null)
                 {
-                    var count = int.Parse(r.Cells[1].Value.ToString());
-                    yield return new BlockStack(new BlockType(name), count);
+                    var count = int.Parse(row.Cells[1].Value.ToString());
+                    yield return new ItemStack(new ItemType(name), count);
                 }
             }
         }
 
-        private bool ValidateQuery(List<BlockStack> query)
+        private bool ValidateQuery(List<ItemStack> query)
         {
             string errorMsg = "";
 
             var missing = query
-                .Select(bs => bs.Type)
-                .Except(RecipeBook.BlockTypes)
+                .Select(stack => stack.Type)
+                .Except(RecipeBook.Items)
                 .ToList();
 
             if (missing.Any())
             {
                 var missingList = missing
-                    .Select(t => $"'{t.Name}'")
+                    .Select(item => $"'{item.Name}'")
                     .ToDelimitedString(", ");
 
-                errorMsg += $"Could not find blocks: {missingList}";
+                errorMsg += $"Could not find items: {missingList}";
             }
 
             if (errorMsg != "")

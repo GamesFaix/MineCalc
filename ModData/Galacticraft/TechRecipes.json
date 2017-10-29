@@ -4,7 +4,7 @@
       "Type": { "Name": "Advanced Wafer" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Diamond" },
         "Count": 1
@@ -28,7 +28,7 @@
       "Type": { "Name": "Aluminum Wire" },
       "Count": 6
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Aluminum Ingot" },
         "Count": 3
@@ -44,7 +44,7 @@
       "Type": { "Name": "Basic Wafer" },
       "Count": 3
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Diamond" },
         "Count": 1
@@ -68,7 +68,7 @@
       "Type": { "Name": "Heavy Oxygen Tank" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Compressed Steel" },
         "Count": 3
@@ -88,7 +88,7 @@
       "Type": { "Name": "Light Oxygen Tank" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Compressed Copper" },
         "Count": 1
@@ -108,7 +108,7 @@
       "Type": { "Name": "Medium Oxygen Tank" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Compressed Tin" },
         "Count": 2
@@ -128,7 +128,7 @@
       "Type": { "Name": "Nose Cone" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Heavy Duty Plating" },
         "Count": 3
@@ -144,7 +144,7 @@
       "Type": { "Name": "Oxygen Concentrator" },
       "Count": 3
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Air Vent" },
         "Count": 1
@@ -168,7 +168,7 @@
       "Type": { "Name": "Oxygen Gear" },
       "Count": 3
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Oxygen Concentrator" },
         "Count": 1
@@ -184,7 +184,7 @@
       "Type": { "Name": "Oxygen Mask" },
       "Count": 3
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Helmet" },
         "Count": 1
@@ -200,7 +200,7 @@
       "Type": { "Name": "Oxygen Pipe" },
       "Count": 6
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Glass Pane" },
         "Count": 6
@@ -212,7 +212,7 @@
       "Type": { "Name": "Rocket Engine" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Air Vent" },
         "Count": 1
@@ -240,7 +240,7 @@
       "Type": { "Name": "Rocket Fin" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Compressed Steel" },
         "Count": 2
@@ -256,7 +256,7 @@
       "Type": { "Name": "Tier 1 Rocket" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Heavy Duty Plating" },
         "Count": 8

@@ -4,7 +4,7 @@
       "Type": { "Name": "Anvil" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Block" },
         "Count": 3
@@ -20,7 +20,7 @@
       "Type": { "Name": "Bed" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Plank" },
         "Count": 3
@@ -36,7 +36,7 @@
       "Type": { "Name": "Brewing Stand" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Blaze Rod" },
         "Count": 1
@@ -52,7 +52,7 @@
       "Type": { "Name": "Chest" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Plank" },
         "Count": 8
@@ -64,7 +64,7 @@
       "Type": { "Name": "Crafting Table" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Plank" },
         "Count": 4
@@ -76,7 +76,7 @@
       "Type": { "Name": "Furnace" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Cobblestone" },
         "Count": 8
@@ -88,7 +88,7 @@
       "Type": { "Name": "Enchanting Table" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Book" },
         "Count": 1
@@ -108,7 +108,7 @@
       "Type": { "Name": "Jukebox" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Diamond" },
         "Count": 1
@@ -124,7 +124,7 @@
       "Type": { "Name": "Trapped Chest" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Chest" },
         "Count": 1

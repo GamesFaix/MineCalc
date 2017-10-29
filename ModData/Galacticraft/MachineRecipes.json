@@ -4,7 +4,7 @@
       "Type": { "Name": "Circuit Fabricator" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Aluminum Ingot" },
         "Count": 2
@@ -36,7 +36,7 @@
       "Type": { "Name": "Coal Generator" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Aluminum Wire" },
         "Count": 1
@@ -60,7 +60,7 @@
       "Type": { "Name": "Compressor" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Aluminum Ingot" },
         "Count": 6
@@ -84,7 +84,7 @@
       "Type": { "Name": "Fuel Loader" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Basic Wafer" },
         "Count": 1
@@ -108,7 +108,7 @@
       "Type": { "Name": "NASA Workbench" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Advanced Wafer" },
         "Count": 1

@@ -4,6 +4,6 @@
     {
         public string Result { get; set; }
 
-        public string Requirements { get; set; }
+        public string Ingredients { get; set; }
     }
 }

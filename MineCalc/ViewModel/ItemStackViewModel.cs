@@ -1,8 +1,8 @@
 ﻿namespace MineCalc.ViewModel
 {
-    class BlockStackViewModel
+    class ItemStackViewModel
     {
-        public string BlockType { get; set; }
+        public string Item { get; set; }
 
         public string Count { get; set; }
     }

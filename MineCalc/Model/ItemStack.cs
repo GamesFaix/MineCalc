@@ -4,14 +4,14 @@ using Newtonsoft.Json;
 
 namespace MineCalc.Model
 {
-    public class BlockStack : IRecipe, IEquatable<BlockStack>
+    public class ItemStack : IRecipe, IEquatable<ItemStack>
     {
-        public BlockType Type { get; }
+        public ItemType Type { get; }
 
         public decimal Count { get; }
 
-        public BlockStack(
-            BlockType type, 
+        public ItemStack(
+            ItemType type, 
             decimal count)
         {
             Type = type;
@@ -19,32 +19,32 @@ namespace MineCalc.Model
         }
 
         [JsonIgnore]
-        public BlockStack Result => this;
+        public ItemStack Result => this;
 
         [JsonIgnore]
-        public ImmutableList<BlockStack> Requirements =>
+        public ImmutableList<ItemStack> Ingredients =>
             ImmutableList.Create(this);
 
         public override string ToString() => $"{Type} x{Count:n2}";
 
         #region Equality
-        public bool Equals(BlockStack other) =>
+        public bool Equals(ItemStack other) =>
             !Equals(other, null)
             && Type.Equals(other.Type)
             && Count == other.Count;
 
         public override bool Equals(object obj) =>
-            Equals(obj as BlockStack);
+            Equals(obj as ItemStack);
 
         public override int GetHashCode() =>
             Type.GetHashCode() ^ Count.GetHashCode();
 
-        public static bool operator == (BlockStack a, BlockStack b) =>
+        public static bool operator == (ItemStack a, ItemStack b) =>
             Equals(a, null)
                 ? Equals(b, null)
                 : a.Equals(b);
 
-        public static bool operator != (BlockStack a, BlockStack b) =>
+        public static bool operator != (ItemStack a, ItemStack b) =>
             !(a == b);
 
         #endregion

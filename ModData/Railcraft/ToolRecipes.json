@@ -4,7 +4,7 @@
       "Type": { "Name": "Crowbar" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 3

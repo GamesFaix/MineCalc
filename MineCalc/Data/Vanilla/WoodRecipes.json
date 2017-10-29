@@ -4,7 +4,7 @@
       "Type": { "Name": "Stick" },
       "Count": 4
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Plank" },
         "Count": 2
@@ -16,7 +16,7 @@
       "Type": { "Name": "Plank" },
       "Count": 4
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Wood" },
         "Count": 1

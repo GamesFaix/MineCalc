@@ -6,11 +6,11 @@ namespace MineCalc.ViewModel
 {
     static class ViewModelExtensions
     {
-        public static BlockStackViewModel ToViewModel(this BlockStack stack)
+        public static ItemStackViewModel ToViewModel(this ItemStack stack)
         {
-            return new BlockStackViewModel
+            return new ItemStackViewModel
             {
-                BlockType = stack.Type.Name,
+                Item = stack.Type.Name,
                 Count = stack.Count.ToString("f2")
             };
         }
@@ -20,8 +20,8 @@ namespace MineCalc.ViewModel
             return new RecipeViewModel
             {
                 Result = recipe.Result.ToString(),
-                Requirements = recipe.Requirements
-                    .Select(req => req.ToString())
+                Ingredients = recipe.Ingredients
+                    .Select(stack => stack.ToString())
                     .ToDelimitedString(", ")
             };
         }

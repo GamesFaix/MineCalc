@@ -4,7 +4,7 @@
       "Type": { "Name": "Glowstone" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Glowstone Dust" },
         "Count": 4
@@ -16,7 +16,7 @@
       "Type": { "Name": "Gold Block" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Gold Ingot" },
         "Count": 9
@@ -28,7 +28,7 @@
       "Type": { "Name": "Gold Ingot" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Gold Ore" },
         "Count": 1
@@ -44,7 +44,7 @@
       "Type": { "Name": "Iron Block" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 9
@@ -56,7 +56,7 @@
       "Type": { "Name": "Iron Ingot" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ore" },
         "Count": 1

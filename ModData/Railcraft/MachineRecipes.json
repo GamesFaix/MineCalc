@@ -4,7 +4,7 @@
       "Type": { "Name": "Rolling Machine" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Crafting Table" },
         "Count": 1

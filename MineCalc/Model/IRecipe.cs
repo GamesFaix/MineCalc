@@ -4,8 +4,8 @@ namespace MineCalc.Model
 {
     public interface IRecipe
     {
-        BlockStack Result { get; }
+        ItemStack Result { get; }
 
-        ImmutableList<BlockStack> Requirements { get; }
+        ImmutableList<ItemStack> Ingredients { get; }
     }
 }

@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.grid_Query = new System.Windows.Forms.DataGridView();
-            this.BlockType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.group_Query = new System.Windows.Forms.GroupBox();
             this.group_Recipes = new System.Windows.Forms.GroupBox();
             this.grid_Recipes = new System.Windows.Forms.DataGridView();
@@ -42,8 +40,10 @@
             this.group_Controls = new System.Windows.Forms.GroupBox();
             this.btn_Calculate = new System.Windows.Forms.Button();
             this.tab_Database = new System.Windows.Forms.TabPage();
-            this.group_Blocks = new System.Windows.Forms.GroupBox();
-            this.grid_Blocks = new System.Windows.Forms.DataGridView();
+            this.group_Items = new System.Windows.Forms.GroupBox();
+            this.grid_Items = new System.Windows.Forms.DataGridView();
+            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grid_Query)).BeginInit();
             this.group_Query.SuspendLayout();
             this.group_Recipes.SuspendLayout();
@@ -54,33 +54,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.grid_Calculated)).BeginInit();
             this.group_Controls.SuspendLayout();
             this.tab_Database.SuspendLayout();
-            this.group_Blocks.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grid_Blocks)).BeginInit();
+            this.group_Items.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_Items)).BeginInit();
             this.SuspendLayout();
             // 
             // grid_Query
             // 
             this.grid_Query.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_Query.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.BlockType,
+            this.Item,
             this.Count});
             this.grid_Query.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grid_Query.Location = new System.Drawing.Point(3, 16);
             this.grid_Query.Name = "grid_Query";
             this.grid_Query.Size = new System.Drawing.Size(278, 278);
             this.grid_Query.TabIndex = 0;
-            // 
-            // BlockType
-            // 
-            this.BlockType.HeaderText = "BlockType";
-            this.BlockType.Name = "BlockType";
-            this.BlockType.Width = 150;
-            // 
-            // Count
-            // 
-            this.Count.HeaderText = "Count";
-            this.Count.Name = "Count";
-            this.Count.Width = 50;
             // 
             // group_Query
             // 
@@ -184,7 +172,7 @@
             // tab_Database
             // 
             this.tab_Database.Controls.Add(this.group_Recipes);
-            this.tab_Database.Controls.Add(this.group_Blocks);
+            this.tab_Database.Controls.Add(this.group_Items);
             this.tab_Database.Location = new System.Drawing.Point(4, 22);
             this.tab_Database.Name = "tab_Database";
             this.tab_Database.Padding = new System.Windows.Forms.Padding(3);
@@ -193,27 +181,39 @@
             this.tab_Database.Text = "Database";
             this.tab_Database.UseVisualStyleBackColor = true;
             // 
-            // group_Blocks
+            // group_Items
             // 
-            this.group_Blocks.Controls.Add(this.grid_Blocks);
-            this.group_Blocks.Dock = System.Windows.Forms.DockStyle.Left;
-            this.group_Blocks.Location = new System.Drawing.Point(3, 3);
-            this.group_Blocks.Name = "group_Blocks";
-            this.group_Blocks.Size = new System.Drawing.Size(174, 351);
-            this.group_Blocks.TabIndex = 4;
-            this.group_Blocks.TabStop = false;
-            this.group_Blocks.Text = "Blocks";
+            this.group_Items.Controls.Add(this.grid_Items);
+            this.group_Items.Dock = System.Windows.Forms.DockStyle.Left;
+            this.group_Items.Location = new System.Drawing.Point(3, 3);
+            this.group_Items.Name = "group_Items";
+            this.group_Items.Size = new System.Drawing.Size(174, 351);
+            this.group_Items.TabIndex = 4;
+            this.group_Items.TabStop = false;
+            this.group_Items.Text = "Items";
             // 
-            // grid_Blocks
+            // grid_Items
             // 
-            this.grid_Blocks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.grid_Blocks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid_Blocks.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grid_Blocks.Location = new System.Drawing.Point(3, 16);
-            this.grid_Blocks.Name = "grid_Blocks";
-            this.grid_Blocks.ReadOnly = true;
-            this.grid_Blocks.Size = new System.Drawing.Size(168, 332);
-            this.grid_Blocks.TabIndex = 0;
+            this.grid_Items.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.grid_Items.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_Items.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grid_Items.Location = new System.Drawing.Point(3, 16);
+            this.grid_Items.Name = "grid_Items";
+            this.grid_Items.ReadOnly = true;
+            this.grid_Items.Size = new System.Drawing.Size(168, 332);
+            this.grid_Items.TabIndex = 0;
+            // 
+            // Item
+            // 
+            this.Item.HeaderText = "Item";
+            this.Item.Name = "Item";
+            this.Item.Width = 150;
+            // 
+            // Count
+            // 
+            this.Count.HeaderText = "Count";
+            this.Count.Name = "Count";
+            this.Count.Width = 50;
             // 
             // MainForm
             // 
@@ -235,8 +235,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.grid_Calculated)).EndInit();
             this.group_Controls.ResumeLayout(false);
             this.tab_Database.ResumeLayout(false);
-            this.group_Blocks.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grid_Blocks)).EndInit();
+            this.group_Items.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grid_Items)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -250,13 +250,13 @@
         private System.Windows.Forms.TabControl tabs;
         private System.Windows.Forms.TabPage tab_Query;
         private System.Windows.Forms.TabPage tab_Database;
-        private System.Windows.Forms.GroupBox group_Blocks;
-        private System.Windows.Forms.DataGridView grid_Blocks;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BlockType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Count;
+        private System.Windows.Forms.GroupBox group_Items;
+        private System.Windows.Forms.DataGridView grid_Items;
         private System.Windows.Forms.GroupBox group_Calculated;
         private System.Windows.Forms.DataGridView grid_Calculated;
         private System.Windows.Forms.Button btn_Calculate;
         private System.Windows.Forms.GroupBox group_Controls;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Item;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Count;
     }
 }

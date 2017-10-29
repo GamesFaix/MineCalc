@@ -4,7 +4,7 @@
       "Type": { "Name": "Standard Rail" },
       "Count": 8
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 6

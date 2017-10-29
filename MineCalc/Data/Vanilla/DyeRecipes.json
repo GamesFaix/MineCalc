@@ -4,7 +4,7 @@
       "Type": { "Name": "Bone Meal" },
       "Count": 3
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Bone" },
         "Count": 1
@@ -16,7 +16,7 @@
       "Type": { "Name": "Lime Dye" },
       "Count": 2
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Bone Meal" },
         "Count": 1
@@ -32,7 +32,7 @@
       "Type": { "Name": "Lime Wool" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Lime Dye" },
         "Count": 1
@@ -48,7 +48,7 @@
       "Type": { "Name": "Orange Dye" },
       "Count": 2
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Dandelion Yellow" },
         "Count": 1
@@ -64,7 +64,7 @@
       "Type": { "Name": "Orange Wool" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Orange Dye" },
         "Count": 1
@@ -80,7 +80,7 @@
       "Type": { "Name": "Red Wool" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Rose Red" },
         "Count": 1

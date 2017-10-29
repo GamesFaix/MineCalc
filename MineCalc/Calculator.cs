@@ -12,11 +12,11 @@ namespace MineCalc.Model
             _book = book;
         }
 
-        public IEnumerable<BlockStack> GetRequirements(IEnumerable<BlockStack> stacks)
+        public IEnumerable<ItemStack> GetIngredients(IEnumerable<ItemStack> stacks)
         {
             var requirements = stacks
                 .Select(Expand)
-                .SelectMany(rec => rec.Requirements);
+                .SelectMany(rec => rec.Ingredients);
 
             return Merge(requirements)
                 .ToList();
@@ -26,10 +26,10 @@ namespace MineCalc.Model
         {
             IRecipe ExpandOnce(IRecipe rec)
             {
-                if (!rec.Requirements.Any()) return rec;
+                if (!rec.Ingredients.Any()) return rec;
 
-                var requirements = rec.Requirements
-                    .SelectMany(r => GetRecipe(r).Requirements);
+                var requirements = rec.Ingredients
+                    .SelectMany(stack => GetRecipe(stack).Ingredients);
 
                 return new Recipe(rec.Result, Merge(requirements));
             }
@@ -48,27 +48,27 @@ namespace MineCalc.Model
             return last;
         }
 
-        private IEnumerable<BlockStack> Merge(IEnumerable<BlockStack> stacks)
+        private IEnumerable<ItemStack> Merge(IEnumerable<ItemStack> stacks)
         {
             return stacks
-                .GroupBy(r => r.Type)
-                .Select(g => new BlockStack(g.Key, g.Sum(bs => bs.Count)))
-                .OrderBy(stack=>stack.Type.Name);
+                .GroupBy(stack => stack.Type)
+                .Select(group => new ItemStack(group.Key, group.Sum(stack => stack.Count)))
+                .OrderBy(stack => stack.Type.Name);
         }
 
-        private IRecipe GetRecipe(BlockStack stack)
+        private IRecipe GetRecipe(ItemStack stack)
         {
             var recipe = _book.Recipes
-                .FirstOrDefault(r => r.Result.Type == stack.Type);
+                .FirstOrDefault(rec => rec.Result.Type == stack.Type);
 
             if (recipe == null) return stack;
 
             var scale = stack.Count / recipe.Result.Count;
-            var requirements = recipe.Requirements.Select(stk => Scale(stk, scale));
+            var requirements = recipe.Ingredients.Select(stk => Scale(stk, scale));
             return new Recipe(stack.Result, requirements);
         }
 
-        private BlockStack Scale(BlockStack @this, decimal scale) =>
-              new BlockStack(@this.Type, scale * @this.Count);
+        private ItemStack Scale(ItemStack @this, decimal scale) =>
+              new ItemStack(@this.Type, scale * @this.Count);
     }
 }

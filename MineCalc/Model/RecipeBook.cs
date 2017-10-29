@@ -5,15 +5,15 @@ namespace MineCalc.Model
 {
     class RecipeBook
     {
-        public ImmutableList<BlockType> BlockTypes { get; }
+        public ImmutableList<ItemType> Items { get; }
 
         public ImmutableList<Recipe> Recipes { get; }
 
         public RecipeBook(
-            IEnumerable<BlockType> blockTypes, 
+            IEnumerable<ItemType> items, 
             IEnumerable<Recipe> recipes)
         {
-            BlockTypes = blockTypes.ToImmutableList();
+            Items = items.ToImmutableList();
             Recipes = recipes.ToImmutableList();
         }
     }

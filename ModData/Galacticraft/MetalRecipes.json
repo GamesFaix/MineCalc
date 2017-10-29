@@ -4,7 +4,7 @@
       "Type": { "Name": "Air Vent" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Compressed Tin" },
         "Count": 3
@@ -20,7 +20,7 @@
       "Type": { "Name": "Aluminum Ingot" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Aluminum Ore" },
         "Count": 1
@@ -36,7 +36,7 @@
       "Type": { "Name": "Compressed Aluminum" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Aluminum Ingot" },
         "Count": 2
@@ -52,7 +52,7 @@
       "Type": { "Name": "Compressed Bronze" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Compressed Copper" },
         "Count": 1
@@ -72,7 +72,7 @@
       "Type": { "Name": "Compressed Copper" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Copper Ingot" },
         "Count": 2
@@ -88,7 +88,7 @@
       "Type": { "Name": "Compressed Iron" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 2
@@ -104,7 +104,7 @@
       "Type": { "Name": "Compressed Steel" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 1
@@ -120,7 +120,7 @@
       "Type": { "Name": "Compressed Tin" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Tin Ore" },
         "Count": 2
@@ -136,7 +136,7 @@
       "Type": { "Name": "Copper Canister" },
       "Count": 2
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Copper Ingot" },
         "Count": 7
@@ -148,7 +148,7 @@
       "Type": { "Name": "Copper Ingot" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Copper Ore" },
         "Count": 1
@@ -164,7 +164,7 @@
       "Type": { "Name": "Heavy Duty Plating" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Compressed Aluminum" },
         "Count": 2
@@ -188,7 +188,7 @@
       "Type": { "Name": "Tin Canister" },
       "Count": 2
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Tin Ingot" },
         "Count": 7
@@ -200,7 +200,7 @@
       "Type": { "Name": "Tin Ingot" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Tin Ore" },
         "Count": 1

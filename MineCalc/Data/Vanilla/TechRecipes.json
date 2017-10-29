@@ -4,7 +4,7 @@
       "Type": { "Name": "Button" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Plank" },
         "Count": 1
@@ -16,7 +16,7 @@
       "Type": { "Name": "Daylight Sensor" },
       "Count": 6
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Glass" },
         "Count": 3
@@ -36,7 +36,7 @@
       "Type": { "Name": "Dispenser" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Bow" },
         "Count": 1
@@ -56,7 +56,7 @@
       "Type": { "Name": "Dropper" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Cobblestone" },
         "Count": 7
@@ -72,7 +72,7 @@
       "Type": { "Name": "Dropper" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Cobblestone" },
         "Count": 7
@@ -88,7 +88,7 @@
       "Type": { "Name": "Hopper" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Chest" },
         "Count": 1
@@ -104,7 +104,7 @@
       "Type": { "Name": "Lever" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Cobblestone" },
         "Count": 1
@@ -120,7 +120,7 @@
       "Type": { "Name": "Note Block" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Plank" },
         "Count": 8
@@ -136,7 +136,7 @@
       "Type": { "Name": "Observer" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Cobblestone" },
         "Count": 6
@@ -156,7 +156,7 @@
       "Type": { "Name": "Piston" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Cobblestone" },
         "Count": 4
@@ -180,7 +180,7 @@
       "Type": { "Name": "Redstone Lamp" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Glowstone" },
         "Count": 1
@@ -196,7 +196,7 @@
       "Type": { "Name": "Redstone Repeater" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Redstone" },
         "Count": 1
@@ -216,7 +216,7 @@
       "Type": { "Name": "Redstone Torch" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Redstone" },
         "Count": 1
@@ -232,7 +232,7 @@
       "Type": { "Name": "Sticky Piston" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Slimeball" },
         "Count": 1
@@ -248,7 +248,7 @@
       "Type": { "Name": "Stone Button" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Stone" },
         "Count": 1
@@ -260,7 +260,7 @@
       "Type": { "Name": "Stone Pressure Plate" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Stone" },
         "Count": 2
@@ -272,7 +272,7 @@
       "Type": { "Name": "Tripwire Hook" },
       "Count": 2
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 1
@@ -292,7 +292,7 @@
       "Type": { "Name": "Wooden Pressure Plate" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Plank" },
         "Count": 2

@@ -8,25 +8,25 @@ namespace MineCalc.Model
     public class Recipe : IRecipe, IEquatable<Recipe>
     {
         public Recipe(
-            BlockStack result, 
-            IEnumerable<BlockStack> requirements)
+            ItemStack result, 
+            IEnumerable<ItemStack> ingredients)
         {
             Result = result;
-            Requirements = requirements.ToImmutableList();
+            Ingredients = ingredients.ToImmutableList();
         }
 
-        public BlockStack Result { get; }
+        public ItemStack Result { get; }
 
-        public ImmutableList<BlockStack> Requirements { get; }
+        public ImmutableList<ItemStack> Ingredients { get; }
 
         public override string ToString() =>
-            $"{Result} ({Requirements.ToDelimitedString(", ")})";
+            $"{Result} ({Ingredients.ToDelimitedString(", ")})";
 
         #region Equality
         public bool Equals(Recipe other) =>
             !Equals(other, null)
             && Result.Equals(other.Result)
-            && Requirements.IsEqualSet(other.Requirements);
+            && Ingredients.IsEqualSet(other.Ingredients);
 
         public override bool Equals(object obj) =>
             Equals(obj as Recipe);

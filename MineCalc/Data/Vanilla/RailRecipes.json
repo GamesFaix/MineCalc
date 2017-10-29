@@ -4,7 +4,7 @@
       "Type": { "Name": "Detector Rail" },
       "Count": 6
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 6
@@ -24,7 +24,7 @@
       "Type": { "Name": "Powered Rail" },
       "Count": 6
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Gold Ingot" },
         "Count": 6
@@ -44,7 +44,7 @@
       "Type": { "Name": "Rail" },
       "Count": 16
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 6

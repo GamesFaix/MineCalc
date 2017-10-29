@@ -4,7 +4,7 @@
       "Type": { "Name": "Bow" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Stick" },
         "Count": 3
@@ -20,7 +20,7 @@
       "Type": { "Name": "Bucket" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 3
@@ -32,7 +32,7 @@
       "Type": { "Name": "Clock" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Gold Ingot" },
         "Count": 4
@@ -48,7 +48,7 @@
       "Type": { "Name": "Compass" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 4
@@ -64,7 +64,7 @@
       "Type": { "Name": "Diamond Axe" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Diamond" },
         "Count": 3
@@ -80,7 +80,7 @@
       "Type": { "Name": "Diamond Pickaxe" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Diamond" },
         "Count": 3
@@ -96,7 +96,7 @@
       "Type": { "Name": "Diamond Shovel" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Diamond" },
         "Count": 1
@@ -112,7 +112,7 @@
       "Type": { "Name": "Diamond Sword" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Diamond" },
         "Count": 2
@@ -128,7 +128,7 @@
       "Type": { "Name": "Flint and Steel" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Flint" },
         "Count": 1
@@ -144,7 +144,7 @@
       "Type": { "Name": "Iron Axe" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 3
@@ -160,7 +160,7 @@
       "Type": { "Name": "Iron Helmet" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 5
@@ -172,7 +172,7 @@
       "Type": { "Name": "Iron Pickaxe" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 3
@@ -188,7 +188,7 @@
       "Type": { "Name": "Iron Shovel" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 1
@@ -204,7 +204,7 @@
       "Type": { "Name": "Iron Sword" },
       "Count": 1
     },
-    "Requirements": [
+    "Ingredients": [
       {
         "Type": { "Name": "Iron Ingot" },
         "Count": 2
