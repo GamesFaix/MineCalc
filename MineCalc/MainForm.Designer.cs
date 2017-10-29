@@ -108,10 +108,11 @@
             // 
             this.grid_Recipes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.grid_Recipes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_Recipes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grid_Recipes.Location = new System.Drawing.Point(3, 16);
             this.grid_Recipes.Name = "grid_Recipes";
             this.grid_Recipes.ReadOnly = true;
-            this.grid_Recipes.Size = new System.Drawing.Size(577, 332);
+            this.grid_Recipes.Size = new System.Drawing.Size(403, 332);
             this.grid_Recipes.TabIndex = 0;
             // 
             // tabs

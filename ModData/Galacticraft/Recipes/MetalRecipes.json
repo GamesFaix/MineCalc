@@ -106,7 +106,7 @@
     },
     "Requirements": [
       {
-        "Type": { "Name": "Copper Iron" },
+        "Type": { "Name": "Iron Ingot" },
         "Count": 1
       },
       {
@@ -131,7 +131,6 @@
       }
     ]
   },
-  ,
   {
     "Result": {
       "Type": { "Name": "Copper Canister" },
