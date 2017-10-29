@@ -11,7 +11,7 @@ namespace MineCalc.ViewModel
             return new BlockStackViewModel
             {
                 BlockType = stack.Type.Name,
-                Count = stack.Count
+                Count = stack.Count.ToString("f2")
             };
         }
 

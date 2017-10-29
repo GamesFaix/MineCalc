@@ -4,6 +4,6 @@
     {
         public string BlockType { get; set; }
 
-        public decimal Count { get; set; }
+        public string Count { get; set; }
     }
 }
