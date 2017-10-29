@@ -79,55 +79,55 @@
     <Compile Include="ViewModel\RecipeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\Vanilla\BlockTypes\ArtifactBlocks.json">
+    <None Include="Data\Vanilla\ArtifactBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\DyeBlocks.json">
+    <None Include="Data\Vanilla\DyeBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\FarmBlocks.json">
+    <None Include="Data\Vanilla\FarmBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\FurnitureBlocks.json">
+    <None Include="Data\Vanilla\FurnitureBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\TechBlocks.json">
+    <None Include="Data\Vanilla\TechBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\WoodBlocks.json">
+    <None Include="Data\Vanilla\WoodBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\MineralBlocks.json">
+    <None Include="Data\Vanilla\MineralBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\StoneBlocks.json">
+    <None Include="Data\Vanilla\StoneBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\BlockTypes\ToolBlocks.json">
+    <None Include="Data\Vanilla\ToolBlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\ArtifactRecipes.json">
+    <None Include="Data\Vanilla\ArtifactRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\BasicRecipes.json">
+    <None Include="Data\Vanilla\BasicRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\DyeRecipes.json">
+    <None Include="Data\Vanilla\DyeRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\FurnitureRecipes.json">
+    <None Include="Data\Vanilla\FurnitureRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\MineralRecipes.json">
+    <None Include="Data\Vanilla\MineralRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\StoneRecipes.json">
+    <None Include="Data\Vanilla\StoneRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\TechRecipes.json">
+    <None Include="Data\Vanilla\TechRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\Vanilla\Recipes\ToolRecipes.json">
+    <None Include="Data\Vanilla\ToolRecipes.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
