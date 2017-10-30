@@ -4,32 +4,35 @@
       "Type": { "Name": "Circuit Fabricator" },
       "Count": 1
     },
-    "Ingredients": [
-      {
-        "Type": { "Name": "Aluminum Ingot" },
-        "Count": 2
-      },
-      {
-        "Type": { "Name": "Aluminum Wire" },
-        "Count": 2
-      },
-      {
-        "Type": { "Name": "Furnace" },
-        "Count": 1
-      },
-      {
-        "Type": { "Name": "Lever" },
-        "Count": 1
-      },
-      {
-        "Type": { "Name": "Redstone Torch" },
-        "Count": 1
-      },
-      {
-        "Type": { "Name": "Stone Button" },
-        "Count": 2
-      }
-    ]
+      "Ingredients": [
+        {
+          "Type": { "Name": "Aluminum Ingot" },
+          "Count": 2
+        },
+        {
+          "Type": { "Name": "Aluminum Wire" },
+          "Count": 2
+        },
+        {
+          "Type": { "Name": "Furnace" },
+          "Count": 1
+        },
+        {
+          "Type": { "Name": "Lever" },
+          "Count": 1
+        },
+        {
+          "Type": { "Name": "Redstone Torch" },
+          "Count": 1
+        },
+        {
+          "Type": { "Name": "Stone Button" },
+          "Count": 2
+        }
+      ],
+      "Equipment": [
+        { "Name": "Crafting Table" }
+      ]
   },
   {
     "Result": {
@@ -53,8 +56,11 @@
         "Type": { "Name": "Iron Ingot" },
         "Count": 4
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
-  }, 
+  },
   {
     "Result": {
       "Type": { "Name": "Compressor" },
@@ -77,6 +83,9 @@
         "Type": { "Name": "Copper Ingot" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -101,6 +110,9 @@
         "Type": { "Name": "Tin Canister" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -129,6 +141,9 @@
         "Type": { "Name": "Redstone Torch" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   }
 ]
