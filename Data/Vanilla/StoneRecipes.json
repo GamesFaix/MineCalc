@@ -13,6 +13,9 @@
         "Type": { "Name": "Cobblestone" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Furnace" }
     ]
   }
 ]

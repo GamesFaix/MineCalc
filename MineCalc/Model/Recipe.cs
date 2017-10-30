@@ -24,7 +24,7 @@ namespace MineCalc.Model
         public ImmutableList<ItemType> Equipment { get; }
 
         public override string ToString() =>
-            $"{Result} ({Ingredients.ToDelimitedString(", ")})";
+            $"{Result} ({Ingredients.ToDelimitedString(", ")}) [{Equipment.ToDelimitedString(", ")}]";
 
         #region Equality
         public bool Equals(Recipe other) =>

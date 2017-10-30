@@ -29,8 +29,11 @@
         "Type": { "Name": "Plank" },
         "Count": 3
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
-  },  
+  },
   {
     "Result": {
       "Type": { "Name": "Dispenser" },
@@ -49,6 +52,9 @@
         "Type": { "Name": "Redstone" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -65,6 +71,9 @@
         "Type": { "Name": "Redstone" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -81,6 +90,9 @@
         "Type": { "Name": "Redstone" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -97,6 +109,9 @@
         "Type": { "Name": "Iron Ingot" },
         "Count": 5
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -129,6 +144,9 @@
         "Type": { "Name": "Redstone" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -149,6 +167,9 @@
         "Type": { "Name": "Redstone" },
         "Count": 2
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -173,8 +194,11 @@
         "Type": { "Name": "Redstone" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
-  },  
+  },
   {
     "Result": {
       "Type": { "Name": "Redstone Lamp" },
@@ -189,6 +213,9 @@
         "Type": { "Name": "Redstone" },
         "Count": 4
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -209,6 +236,9 @@
         "Type": { "Name": "Stone" },
         "Count": 3
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -241,6 +271,9 @@
         "Type": { "Name": "Piston" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -285,6 +318,9 @@
         "Type": { "Name": "Stick" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {

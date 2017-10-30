@@ -14,12 +14,16 @@ namespace MineCalc.Model
 
         public IEnumerable<ItemStack> GetIngredients(IEnumerable<ItemStack> stacks)
         {
-            var requirements = stacks
+            var recipes = stacks
                 .Select(Expand)
-                .SelectMany(rec => rec.Ingredients);
-
-            return MergeIngredients(requirements)
                 .ToList();
+
+            var ingredients = MergeIngredients(recipes.SelectMany(rec => rec.Ingredients));
+
+            var equipment = MergeEquipment(recipes.SelectMany(rec => rec.Equipment));
+
+            return ingredients
+                .Concat(equipment.Select(e => new ItemStack(e, 1)));
         }
         
         public IRecipe Expand(IRecipe recipe)
@@ -34,7 +38,7 @@ namespace MineCalc.Model
                 
                 return new Recipe(rec.Result, 
                     MergeIngredients(subRecipes.SelectMany(r => r.Ingredients)),
-                    MergeEquipment(subRecipes.SelectMany(r => r.Equipment)));
+                    MergeEquipment(rec.Equipment.Concat(subRecipes.SelectMany(r => r.Equipment))));
             }
 
             const int maxDepth = 20;
@@ -61,7 +65,7 @@ namespace MineCalc.Model
 
         private IEnumerable<ItemType> MergeEquipment(IEnumerable<ItemType> items)
         {
-            return items.Distinct().OrderBy(item => item.Name);
+            return items.Distinct();
         }
 
         private IRecipe GetRecipe(ItemStack stack)

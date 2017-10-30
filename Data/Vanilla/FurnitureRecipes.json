@@ -13,6 +13,9 @@
         "Type": { "Name": "Iron Ingot" },
         "Count": 4
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -29,6 +32,9 @@
         "Type": { "Name": "Wool" },
         "Count": 3
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -45,6 +51,9 @@
         "Type": { "Name": "Cobblestone" },
         "Count": 3
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -57,6 +66,9 @@
         "Type": { "Name": "Plank" },
         "Count": 8
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -81,6 +93,9 @@
         "Type": { "Name": "Cobblestone" },
         "Count": 8
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -101,6 +116,9 @@
         "Type": { "Name": "Obsidian" },
         "Count": 4
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -117,6 +135,9 @@
         "Type": { "Name": "Plank" },
         "Count": 8
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -133,6 +154,9 @@
         "Type": { "Name": "Tripwire Hook" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   }
 ]

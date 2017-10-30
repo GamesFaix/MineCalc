@@ -21,6 +21,9 @@
         "Type": { "Name": "Gold Ingot" },
         "Count": 9
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -37,6 +40,9 @@
         "Type": { "Name": "Coal" },
         "Count": 0.125
       }
+    ],
+    "Equipment": [
+      { "Name": "Furnace" }
     ]
   },
   {
@@ -49,6 +55,9 @@
         "Type": { "Name": "Iron Ingot" },
         "Count": 9
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -65,6 +74,9 @@
         "Type": { "Name": "Coal" },
         "Count": 0.125
       }
+    ],
+    "Equipment": [
+      { "Name": "Furnace" }
     ]
   }
 ]
