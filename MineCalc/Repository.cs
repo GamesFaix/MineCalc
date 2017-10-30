@@ -7,13 +7,13 @@ using MineCalc.Model;
 using MoreLinq;
 using Newtonsoft.Json;
 
-namespace MineCalc.Data
+namespace MineCalc
 {
     class Repository
     {
         public RecipeBook LoadRecipeBook()
         {
-            var blockTypes = Load<ItemType>("*Blocks.json").OrderBy(item => item.Name);
+            var blockTypes = Load<ItemType>("*Items.json").OrderBy(item => item.Name);
             var recipes = Load<Recipe>("*Recipes.json").OrderBy(rec => rec.Result.Type.Name);
             var book = new RecipeBook(blockTypes, recipes);
             ValidateRecipeBook(book);
@@ -38,16 +38,16 @@ namespace MineCalc.Data
 
         private void ValidateRecipeBook(RecipeBook book)
         {
-            var requiredBlocks = book.Recipes
+            var requiredItems = book.Recipes
                 .SelectMany(rec => rec.Ingredients.Select(stack => stack.Type))
                 .Distinct()
                 .ToList();
 
-            var missingBlocks = requiredBlocks.Except(book.Items);
+            var missingItems = requiredItems.Except(book.Items);
 
-            if (missingBlocks.Any())
+            if (missingItems.Any())
             {
-                var missingBlocksList = missingBlocks
+                var missingBlocksList = missingItems
                     .Select(item => $"'{item.Name}'")
                     .ToDelimitedString(", ");
 
@@ -55,7 +55,7 @@ namespace MineCalc.Data
             }
 
             if (book.Items.Any(item => item.Name == null)
-                || requiredBlocks.Any(item => item.Name == null))
+                || requiredItems.Any(item => item.Name == null))
                 throw new Exception("Block types cannot have null names.");
 
             if (book.Recipes.Any(rec => rec.Ingredients.Any(stack => stack.Count == 0)))

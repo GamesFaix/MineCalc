@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using MineCalc.Data;
 using MineCalc.Model;
 
 namespace MineCalc
