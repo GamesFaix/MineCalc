@@ -25,6 +25,9 @@
         "Type": { "Name": "Plank" },
         "Count": 6
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -41,6 +44,9 @@
         "Type": { "Name": "Sand" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Furnace" }
     ]
   },
   {
@@ -53,6 +59,9 @@
         "Type": { "Name": "Glass" },
         "Count": 6
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -69,6 +78,9 @@
         "Type": { "Name": "Stick" },
         "Count": 8
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -81,6 +93,9 @@
         "Type": { "Name": "Stick" },
         "Count": 7
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -97,6 +112,9 @@
         "Type": { "Name": "Paper" },
         "Count": 8
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -109,6 +127,9 @@
         "Type": { "Name": "Sugar Cane" },
         "Count": 3
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {
@@ -125,6 +146,9 @@
         "Type": { "Name": "Stick" },
         "Count": 1
       }
+    ],
+    "Equipment": [
+      { "Name": "Crafting Table" }
     ]
   },
   {

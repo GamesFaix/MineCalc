@@ -5,5 +5,7 @@
         public string Result { get; set; }
 
         public string Ingredients { get; set; }
+
+        public string Equipment { get; set; }
     }
 }

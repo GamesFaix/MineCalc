@@ -18,7 +18,7 @@ namespace MineCalc.Model
                 .Select(Expand)
                 .SelectMany(rec => rec.Ingredients);
 
-            return Merge(requirements)
+            return MergeIngredients(requirements)
                 .ToList();
         }
         
@@ -28,10 +28,13 @@ namespace MineCalc.Model
             {
                 if (!rec.Ingredients.Any()) return rec;
 
-                var requirements = rec.Ingredients
-                    .SelectMany(stack => GetRecipe(stack).Ingredients);
-
-                return new Recipe(rec.Result, Merge(requirements));
+                var subRecipes = rec.Ingredients
+                    .Select(stack => GetRecipe(stack))
+                    .ToList();
+                
+                return new Recipe(rec.Result, 
+                    MergeIngredients(subRecipes.SelectMany(r => r.Ingredients)),
+                    MergeEquipment(subRecipes.SelectMany(r => r.Equipment)));
             }
 
             const int maxDepth = 20;
@@ -48,12 +51,17 @@ namespace MineCalc.Model
             return last;
         }
 
-        private IEnumerable<ItemStack> Merge(IEnumerable<ItemStack> stacks)
+        private IEnumerable<ItemStack> MergeIngredients(IEnumerable<ItemStack> stacks)
         {
             return stacks
                 .GroupBy(stack => stack.Type)
                 .Select(group => new ItemStack(group.Key, group.Sum(stack => stack.Count)))
                 .OrderBy(stack => stack.Type.Name);
+        }
+
+        private IEnumerable<ItemType> MergeEquipment(IEnumerable<ItemType> items)
+        {
+            return items.Distinct().OrderBy(item => item.Name);
         }
 
         private IRecipe GetRecipe(ItemStack stack)
@@ -64,8 +72,8 @@ namespace MineCalc.Model
             if (recipe == null) return stack;
 
             var scale = stack.Count / recipe.Result.Count;
-            var requirements = recipe.Ingredients.Select(stk => Scale(stk, scale));
-            return new Recipe(stack.Result, requirements);
+            var ingredients = recipe.Ingredients.Select(stk => Scale(stk, scale));
+            return new Recipe(stack.Result, ingredients, recipe.Equipment);
         }
 
         private ItemStack Scale(ItemStack @this, decimal scale) =>

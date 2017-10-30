@@ -8,16 +8,20 @@ namespace MineCalc.Model
     public class Recipe : IRecipe, IEquatable<Recipe>
     {
         public Recipe(
-            ItemStack result, 
-            IEnumerable<ItemStack> ingredients)
+            ItemStack result,
+            IEnumerable<ItemStack> ingredients,
+            IEnumerable<ItemType> equipment)
         {
             Result = result;
             Ingredients = ingredients.ToImmutableList();
+            Equipment = equipment?.ToImmutableList() ?? ImmutableList.Create<ItemType>();
         }
 
         public ItemStack Result { get; }
 
         public ImmutableList<ItemStack> Ingredients { get; }
+
+        public ImmutableList<ItemType> Equipment { get; }
 
         public override string ToString() =>
             $"{Result} ({Ingredients.ToDelimitedString(", ")})";

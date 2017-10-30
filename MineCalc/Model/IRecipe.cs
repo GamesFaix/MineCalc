@@ -7,5 +7,7 @@ namespace MineCalc.Model
         ItemStack Result { get; }
 
         ImmutableList<ItemStack> Ingredients { get; }
+
+        ImmutableList<ItemType> Equipment { get; }
     }
 }

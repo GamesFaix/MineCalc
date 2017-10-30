@@ -25,6 +25,10 @@ namespace MineCalc.Model
         public ImmutableList<ItemStack> Ingredients =>
             ImmutableList.Create(this);
 
+        [JsonIgnore]
+        public ImmutableList<ItemType> Equipment =>
+            ImmutableList.Create<ItemType>();
+
         public override string ToString() => $"{Type} x{Count:n2}";
 
         #region Equality

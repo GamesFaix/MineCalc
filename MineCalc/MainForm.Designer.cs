@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.grid_Query = new System.Windows.Forms.DataGridView();
+            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.group_Query = new System.Windows.Forms.GroupBox();
             this.group_Recipes = new System.Windows.Forms.GroupBox();
             this.grid_Recipes = new System.Windows.Forms.DataGridView();
@@ -42,8 +44,6 @@
             this.tab_Database = new System.Windows.Forms.TabPage();
             this.group_Items = new System.Windows.Forms.GroupBox();
             this.grid_Items = new System.Windows.Forms.DataGridView();
-            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grid_Query)).BeginInit();
             this.group_Query.SuspendLayout();
             this.group_Recipes.SuspendLayout();
@@ -70,6 +70,18 @@
             this.grid_Query.Size = new System.Drawing.Size(278, 278);
             this.grid_Query.TabIndex = 0;
             // 
+            // Item
+            // 
+            this.Item.HeaderText = "Item";
+            this.Item.Name = "Item";
+            this.Item.Width = 150;
+            // 
+            // Count
+            // 
+            this.Count.HeaderText = "Count";
+            this.Count.Name = "Count";
+            this.Count.Width = 50;
+            // 
             // group_Query
             // 
             this.group_Query.Controls.Add(this.grid_Query);
@@ -87,7 +99,7 @@
             this.group_Recipes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.group_Recipes.Location = new System.Drawing.Point(177, 3);
             this.group_Recipes.Name = "group_Recipes";
-            this.group_Recipes.Size = new System.Drawing.Size(409, 351);
+            this.group_Recipes.Size = new System.Drawing.Size(965, 322);
             this.group_Recipes.TabIndex = 2;
             this.group_Recipes.TabStop = false;
             this.group_Recipes.Text = "Recipes";
@@ -100,7 +112,7 @@
             this.grid_Recipes.Location = new System.Drawing.Point(3, 16);
             this.grid_Recipes.Name = "grid_Recipes";
             this.grid_Recipes.ReadOnly = true;
-            this.grid_Recipes.Size = new System.Drawing.Size(403, 332);
+            this.grid_Recipes.Size = new System.Drawing.Size(959, 303);
             this.grid_Recipes.TabIndex = 0;
             // 
             // tabs
@@ -111,7 +123,7 @@
             this.tabs.Location = new System.Drawing.Point(0, 0);
             this.tabs.Name = "tabs";
             this.tabs.SelectedIndex = 0;
-            this.tabs.Size = new System.Drawing.Size(597, 383);
+            this.tabs.Size = new System.Drawing.Size(1153, 354);
             this.tabs.TabIndex = 4;
             // 
             // tab_Query
@@ -176,7 +188,7 @@
             this.tab_Database.Location = new System.Drawing.Point(4, 22);
             this.tab_Database.Name = "tab_Database";
             this.tab_Database.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Database.Size = new System.Drawing.Size(589, 357);
+            this.tab_Database.Size = new System.Drawing.Size(1145, 328);
             this.tab_Database.TabIndex = 1;
             this.tab_Database.Text = "Database";
             this.tab_Database.UseVisualStyleBackColor = true;
@@ -187,7 +199,7 @@
             this.group_Items.Dock = System.Windows.Forms.DockStyle.Left;
             this.group_Items.Location = new System.Drawing.Point(3, 3);
             this.group_Items.Name = "group_Items";
-            this.group_Items.Size = new System.Drawing.Size(174, 351);
+            this.group_Items.Size = new System.Drawing.Size(174, 322);
             this.group_Items.TabIndex = 4;
             this.group_Items.TabStop = false;
             this.group_Items.Text = "Items";
@@ -200,26 +212,14 @@
             this.grid_Items.Location = new System.Drawing.Point(3, 16);
             this.grid_Items.Name = "grid_Items";
             this.grid_Items.ReadOnly = true;
-            this.grid_Items.Size = new System.Drawing.Size(168, 332);
+            this.grid_Items.Size = new System.Drawing.Size(168, 303);
             this.grid_Items.TabIndex = 0;
-            // 
-            // Item
-            // 
-            this.Item.HeaderText = "Item";
-            this.Item.Name = "Item";
-            this.Item.Width = 150;
-            // 
-            // Count
-            // 
-            this.Count.HeaderText = "Count";
-            this.Count.Name = "Count";
-            this.Count.Width = 50;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 383);
+            this.ClientSize = new System.Drawing.Size(1153, 354);
             this.Controls.Add(this.tabs);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";

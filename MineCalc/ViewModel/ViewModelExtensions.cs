@@ -22,6 +22,9 @@ namespace MineCalc.ViewModel
                 Result = recipe.Result.ToString(),
                 Ingredients = recipe.Ingredients
                     .Select(stack => stack.ToString())
+                    .ToDelimitedString(", "),
+                Equipment = recipe.Equipment
+                    .Select(item => item.Name)
                     .ToDelimitedString(", ")
             };
         }
