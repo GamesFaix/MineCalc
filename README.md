@@ -19,11 +19,11 @@ MineCalc lets you calculate the exact raw item requirements to craft a set of it
 
 To see what items and recipes are loaded, check the _Database_ tab.
 
-![alt text](https://github.com/GamesFaix/MineCalc/Screenshot_Database.png)
+![](https://github.com/GamesFaix/MineCalc/blob/master/Screenshot_Database.png)
 
 To perform a calculation, use the _Query_ tab. Enter the items and quantities you want in the _Desired Result_ section on the left, click _Calculate_ and the required raw items will appear in the _Calculated Requirements_ section on the right.
 
-![alt text](https://github.com/GamesFaix/MineCalc/Screenshot_Query.png)
+![](https://github.com/GamesFaix/MineCalc/blob/master/Screenshot_Query.png)
 
 ## How it works
 
